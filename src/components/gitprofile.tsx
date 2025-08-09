@@ -241,23 +241,6 @@ const GitProfile = ({ config }: { config: Config }) => {
               <div className="lg:col-span-2 col-span-1">
                 <div className="grid grid-cols-1 gap-6">
 
-
-                  {sanitizedConfig.projects.github.display && (
-                    <GithubProjectCard
-                    header={sanitizedConfig.projects.github.header}
-                    limit={sanitizedConfig.projects.github.automatic.limit}
-                    githubProjects={githubProjects}
-                    loading={loading}
-                    googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
-                    />
-                  )}
-                  <GitHubActivityCard username={sanitizedConfig.github.username} />
-                  {sanitizedConfig.publications.length !== 0 && (
-                    <PublicationCard
-                      loading={loading}
-                      publications={sanitizedConfig.publications}
-                    />
-                  )}
                   {sanitizedConfig.projects.external.projects.length !== 0 && (
                     <ExternalProjectCard
                       loading={loading}
@@ -268,6 +251,24 @@ const GitProfile = ({ config }: { config: Config }) => {
                       googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                     />
                   )}
+                  <GitHubActivityCard username={sanitizedConfig.github.username} />
+
+                  {sanitizedConfig.projects.github.display && (
+                    <GithubProjectCard
+                    header={sanitizedConfig.projects.github.header}
+                    limit={sanitizedConfig.projects.github.automatic.limit}
+                    githubProjects={githubProjects}
+                    loading={loading}
+                    googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                    />
+                  )}
+                  {sanitizedConfig.publications.length !== 0 && (
+                    <PublicationCard
+                      loading={loading}
+                      publications={sanitizedConfig.publications}
+                    />
+                  )}
+                  
                   {sanitizedConfig.blog.display && (
                     <BlogCard
                       loading={loading}

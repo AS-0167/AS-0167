@@ -63,18 +63,18 @@
   /* high contrast text on dark */
   --color-base-content: #d1f5d0; 
   /* green */
-  --color-primary: #16a34a;      
+  --color-primary: #006D32;      
   --color-primary-content: #ffffff;
   --color-secondary: #065f46;
   --color-secondary-content: #ffffff;
   --color-accent: #22c55e;
-  --color-accent-content: #000000;
+  --color-accent-content: #ffffff;
   --color-neutral: #1e293b;
   --color-neutral-content: #d1fae5;
   --color-success: #22c55e;
-  --color-success-content: #000000;
+  --color-success-content: #ffffff;
   --color-warning: #facc15;
-  --color-warning-content: #000000;
+  --color-warning-content: #ffffff;
   --color-error: #f43f5e;
   --color-error-content: #ffffff;
 
