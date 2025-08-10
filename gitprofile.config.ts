@@ -9,12 +9,12 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/AS-0167/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'manual', // Mode can be: 'automatic' or 'manual'
+      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,12 +25,14 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
+        limit: 8,
         projects: ['AS-0167/SHA-256', 
           'AS-0167/D3-CNN', 
           'AS-0167/D3-CNN-2', 
           'AS-0167/red-finger-mouse',
           'AS-0167/ legal-fillings', 
           'AS-0167/FAT-FS', 
+          'AS-0167/NET-BMP'
         ], 
       },
     },
@@ -59,6 +61,26 @@ const CONFIG = {
           title: 'Hawk AI – AiBee.pk',
           description:
             'At AiBee.pk, developed a custom computer vision model for detecting impurities on tobacco conveyor belts, combining object detection and segmentation techniques. Integrated with a robotic arm for automated impurity removal, enhancing quality control and reducing manual intervention.',
+        },
+        {
+          title: 'Real-Time Streaming & AI Inference System',
+          description:
+            'Designed a low-latency video streaming pipeline with integrated AI inference using C++, FFmpeg, HLS, WebRTC, and OpenCV. Optimized for minimal delay, enabling real-time decision-making for computer vision applications.',
+        },
+        {
+          title: 'Autonomous Rover',
+          description:
+            'Developed a fully functional rover from scratch, handling both hardware and software aspects. Built a custom LiDAR system for obstacle detection and distance measurement, integrated with PWM motor control, sensors, and AI-based navigation algorithms.',
+        },
+        {
+          title: 'Embedded AI on Hat Devices',
+          description:
+            'Worked with Raspberry Pi and microcontrollers to deploy lightweight deep learning models for edge computing, enabling real-time AI processing directly on resource-constrained devices.',
+        },
+        {
+          title: 'Other Projects',
+          description:
+            'Developed diverse technical projects, including a Neo4j-inspired graph database in C++, an AI-powered blockchain smart contract auditor for vulnerability detection, a CLI-based torrent client for peer-to-peer file sharing, a C library for dynamic hot reloading of shared modules, and an LMS-based adaptive noise cancellation system with comparative filter analysis.',
         }
       ]
     }
@@ -82,7 +104,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: 'as_0167',
     telegram: '',
-    website: 'https://www.as.com',
+    website: 'https://www.AS-0167.com',
     phone: '',
     email: 'ayeshasiddiqa0167@gmail.com',
   },
@@ -115,6 +137,8 @@ const CONFIG = {
     "Python",
     "C++",
     "C",
+    "Bash",
+    "CUDA",
     "Algorithms",
     "Object-Oriented Programming",
     "Neural Networks",
@@ -124,6 +148,18 @@ const CONFIG = {
     "SQL",
     "NoSQL Databases",
     "Neo4j",
+    "Raspberry Pi",
+    "NVIDIA Jetson",
+    "Microcontrollers",
+    "Real-Time Processing",
+    "Server Management",
+    "ESXi",
+    "OpenWRT",
+    "Router Configurations",
+    "GStreamer",
+    "FFmpeg",
+    "WebRTC",
+    "OpenCV",
     "Problem Solving",
     "Project Management",
     "Educational Leadership",
