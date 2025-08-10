@@ -104,7 +104,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: 'as_0167',
     telegram: '',
-    website: 'https://www.AS-0167.com',
+    website: 'https://as-0167.github.io/',
     phone: '',
     email: 'ayeshasiddiqa0167@gmail.com',
   },
