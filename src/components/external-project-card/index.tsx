@@ -1,14 +1,14 @@
 import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
 import { MdOpenInNew } from 'react-icons/md';
-import { ga, skeleton } from '../../utils';
+import { ga as _ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
 const ExternalProjectCard = ({
   externalProjects,
   header,
   loading,
-  googleAnalyticId,
+  // googleAnalyticId,
 }: {
   externalProjects: SanitizedExternalProject[];
   header: string;

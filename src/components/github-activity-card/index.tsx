@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiOutlineFire } from 'react-icons/ai';
 import GitHubCalendar from 'react-github-calendar';
 
