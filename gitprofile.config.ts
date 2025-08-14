@@ -110,7 +110,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/13IAkROTEB0dlrsvE6G2v3zqv_KKqc1hw/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     "Computer Vision",
@@ -283,7 +283,7 @@ experiences : [
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'procyon-dark',
+    defaultTheme: 'procyon',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
