@@ -128,12 +128,17 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-size: 2em; /* 2× bigger */
+  line-height: 1.6; /* improve readability */
 }
 
 code {
   font-family:
     source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
     /* 'Roboto Mono', monospace; */
+    font-size: 2em; /* 2× bigger */
+  line-height: 1.6; /* improve readability */
 }
 
 svg {

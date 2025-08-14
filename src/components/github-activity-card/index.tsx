@@ -5,6 +5,22 @@ import GitHubCalendar from 'react-github-calendar';
 type GitHubActivityCardProps = {
   username: string;
 };
+const pinkTheme = {
+  dark: [
+    "#fde4ec", // no activity
+    "#f8bbd0", // low activity
+    "#f48fb1", // medium-low
+    "#f06292", // medium-high
+    "#ec407a"  // high activity
+  ],
+  light: [
+    "#4a0033", // no activity
+    "#800046", // low activity
+    "#b30059", // medium-low
+    "#e60073", // medium-high
+    "#ff3385"  // high activity
+  ]
+};
 
 const GitHubActivityCard = ({ username }: GitHubActivityCardProps) => {
   return (
@@ -27,34 +43,23 @@ const GitHubActivityCard = ({ username }: GitHubActivityCardProps) => {
 
         {/* Activity Chart */}
         <div className="flex justify-center">
-            {/* <img
-                src={`https://ghchart.rshah.org/0167FF/${username}`}
-                alt={`GitHub activity graph for ${username}`}
-                className="w-full h-auto rounded-lg bg-base-100 p-2"
-            /> */}
-            {/* <img
-            src={`https://github-readme-streak-stats.herokuapp.com/?user=${username}&theme=dark`}
-            alt={`${username}'s GitHub streak`}
-            className="w-full h-auto rounded-lg"
-            /> */}
-            {/* <img
-            src={`https://github-readme-activity-graph.vercel.app/graph?username=${username}&bg_color=ffffff&color=0167FF&line=0167FF&point=0167FF&area=true&hide_border=true`}
-            alt="GitHub Activity Graph"
-            className="w-full h-auto rounded-lg"
-            /> */}
-        
-            <GitHubCalendar username='AS-0167' />
-            {/* <iframe
-            src={`https://github.com/users/${username}/contributions`}
-            width="100%"
-            height="200"
-            frameBorder="0"
-            className="rounded-lg"
-            /> */}
-
+          <div className="card shadow-md card-sm bg-base-100" >
+            <div className="p-8 h-full w-full">
+              <div className="flex items-center flex-col">
+                <div className="w-full">
+                  <div className="flex items-start px-4">
+                    <div className="w-full">
+                      <GitHubCalendar 
+                        username="AS-0167"
+                        theme={pinkTheme} 
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        
       </div>
     </div>
   );
