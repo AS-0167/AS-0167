@@ -25,7 +25,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
   resumeFileUrl,
 }): React.JSX.Element => {
   return (
-    <div className="card shadow-lg card-sm bg-base-100">
+    <div className="card shadow-lg card-sm bg-base-100 transform transition-transform duration-300 hover:scale-105">
       <div className="grid place-items-center py-8">
         {loading || !profile ? (
           <div className="avatar opacity-90">
@@ -85,7 +85,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             <a
               href={resumeFileUrl}
               target="_blank"
-              className="btn btn-outline btn-md text-medium mt-6 opacity-50"
+              className="btn btn-outline btn-md text-medium mt-6 opacity-50 transform transition-transform duration-300 hover:scale-105"
               download
               rel="noreferrer"
             >

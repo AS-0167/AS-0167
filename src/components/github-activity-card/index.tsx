@@ -43,7 +43,7 @@ const GitHubActivityCard = ({ username }: GitHubActivityCardProps) => {
 
         {/* Activity Chart */}
         <div className="flex justify-center">
-          <div className="card shadow-md card-sm bg-base-100" >
+          <div className="card shadow-md card-sm bg-base-100 transform transition-transform duration-300 hover:scale-105" >
             <div className="p-8 h-full w-full">
               <div className="flex items-center flex-col">
                 <div className="w-full">

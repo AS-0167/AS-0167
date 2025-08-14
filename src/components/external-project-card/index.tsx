@@ -70,7 +70,7 @@ const ExternalProjectCard = ({
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <a
-        className="card shadow-md card-sm bg-base-100"
+      className="card shadow-md card-sm bg-base-100 transform transition-transform duration-300 hover:scale-105"
         key={index}
         // href={item.link}
         // onClick={(e) => {

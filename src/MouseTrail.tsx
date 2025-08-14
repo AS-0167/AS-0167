@@ -40,7 +40,7 @@ export default function MouseTrail() {
             width: "200px",
             height: "200px",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(255,105,180,0.4) 0%, rgba(255,105,180,0.05) 70%)",
+            background: "radial-gradient(circle, rgba(245,60,127,0.25) 0%, rgba(245,60,127,0.02) 70%)",
             animation: "fadeOut 1.5s forwards"
           }}
         />
@@ -48,7 +48,7 @@ export default function MouseTrail() {
       <style>
         {`
           @keyframes fadeOut {
-            0% { opacity: 0.5; transform: scale(1); }
+            0% { opacity: 0.3; transform: scale(1); }
             100% { opacity: 0; transform: scale(2); }
           }
         `}

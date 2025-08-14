@@ -169,7 +169,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
   };
 
   return (
-    <div className="card shadow-lg card-sm bg-base-100">
+    <div className="card shadow-lg card-sm bg-base-100 transform transition-transform duration-300 hover:scale-105">
       <div className="card-body">
         <div className="text-base-content text-sm">
           {loading || !profile ? (

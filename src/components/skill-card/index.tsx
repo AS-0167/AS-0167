@@ -21,7 +21,7 @@ const SkillCard = ({
   };
 
   return (
-    <div className="card shadow-lg card-sm bg-base-100">
+    <div className="card shadow-lg card-sm bg-base-100 transform transition-transform duration-300 hover:scale-105">
       <div className="card-body">
         <div className="mx-3">
           <h5 className="card-title">
@@ -37,7 +37,7 @@ const SkillCard = ({
             {loading
               ? renderSkeleton()
               : skills.map((skill, index) => (
-                  <div key={index} className="badge badge-primary badge-base opacity-75 font-semibold">
+                  <div key={index} className="badge badge-primary badge-base opacity-75 font-semibold transform transition-transform duration-300 hover:scale-105">
                     {skill}
                   </div>
                 ))}
