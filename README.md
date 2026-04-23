@@ -1,4 +1,4 @@
-# 🚀 Ayesha Siddiqa | Sr. AI & Software Engineer
+# **Ayesha Siddiqa** | Sr. AI/ML & Automation Engineer | Software Engineer
 ### Bridging the gap between Research Prototypes and Production-Grade Industrial AI
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-as0167-blue?logo=linkedin)](https://linkedin.com/in/as0167) 
@@ -18,12 +18,12 @@ Innovative **AI/ML & Full-Stack Engineer** with a proven track record of deployi
 
 ## 🏗 Industrial Impact & Experience
 
-### 🛢 Qult Technologies | Sr. AI/ML Engineer 
+### Qult Technologies | Sr. AI/ML Engineer 
 * **Plunger Lift Optimization:** Engineered an AI-driven forecasting system using real-time telemetry to maximize gas production.
 * **Autonomous Rust Controller:** Developed a high-performance controller in **Rust** to compute optimal well setpoints in real-time.
 * **Thermal Vision Automation:** Built a computer vision system using heat pattern analysis for automated sand extraction.
 
-### 🐝 AiBee.pk | AI & Backend Developer
+### AiBee.pk | AI & Backend Developer
 * **Lease Bot:** Architected a desktop AI platform for automated legal document processing (NLP/LLM).
 * **Hawk AI:** Developed a CV-integrated robotic arm system for tobacco impurity detection and removal.
 
@@ -61,14 +61,10 @@ An AI-powered vulnerability detection tool for blockchain smart contracts levera
 ***Role: AI/ML & Full-Stack Lead***
 
 An enterprise-grade, AI-driven optimization system designed for gas-field operations. This project bridges the gap between raw industrial telemetry and autonomous decision-making.
-
-    Real-Time Intelligence: Engineered an autonomous controller in Rust to compute optimal setpoints after each plunger cycle based on live well dynamics.
-
-    Predictive Modeling: Leveraged time-series forecasting and historical behavior to reduce non-arrival cycles and maximize gas production efficiency.
-
-    Production Monitoring: Developed a high-performance dashboard using React and TypeScript for real-time visualization of AI decisions and system health.
-
-    Impact: Successfully deployed a closed-loop system that reduces manual intervention while significantly improving operational yields.
+Real-Time Intelligence: Engineered an autonomous controller in Rust to compute optimal setpoints after each plunger cycle based on live well dynamics.
+Predictive Modeling: Leveraged time-series forecasting and historical behavior to reduce non-arrival cycles and maximize gas production efficiency.
+Production Monitoring: Developed a high-performance dashboard using React and TypeScript for real-time visualization of AI decisions and system health.
+Impact: Successfully deployed a closed-loop system that reduces manual intervention while significantly improving operational yields.
 
 ### 📄 [LeaseBot - Document Intelligence Platform | AiBee.pk](https://abstria-dev.azurewebsites.net/)
 
